@@ -8,17 +8,19 @@ In this repository you will find implementations of various neural networks such
 
 You can try the NeuralLogicGates(pretrained models) by using following code
 ```
+# in repo's root directory
 python3 run.py --gate gate_name --input input1 input2
 ```
 - gate_name : give name of desired gate, ie. 'and', 'or' etc. you can use capital letters, lowercase letters, or a combination of both.
 - input1 : give input1
 - input2 : give input2
 
-*example*
+**example**
 ```
 python3 run.py --gate Or --input 0 1
 ```
-`output : output for 'Or' logic gate is 1`
+**output**
+`output for 'Or' logic gate is 1`
 
 ## Accuray and Loss of each implementation 
 
