@@ -4,6 +4,21 @@ Purpose of this repository is to showcase implementations of logic gates using n
 
 In this repository you will find implementations of various neural networks such as AND, OR and more. These implementations demonstrate how neural networks can learn the underlying logical rules and produce accurate outputs. 
 
+## Load pretrained models
+
+You can try the NeuralLogicGates(pretrained models) by using following code
+```
+python3 run.py --gate gate_name --input input1 input2
+```
+- gate_name : give name of desired gate, ie. 'and', 'or' etc. you can use capital letters, lowercase letters, or a combination of both.
+- input1 : give input1
+- input2 : give input2
+
+example
+```
+python3 run.py --gate Or --input 0 1
+```
+
 ## Accuray and Loss of each implementation 
 
 ### OR
