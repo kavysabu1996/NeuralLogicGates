@@ -20,6 +20,6 @@ In this repository you will find implementations of various neural networks such
 
 ### XOR
 <div>
-  <img src="NOR_gate/accuraCy.png" alt="Image 1" width="400" />
+  <img src="NOR_gate/accuracy.png" alt="Image 1" width="400" />
   <img src="NOR_gate/loss.png" alt="Image 2" width="400" />
 </div>
