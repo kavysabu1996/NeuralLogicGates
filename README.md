@@ -14,10 +14,11 @@ python3 run.py --gate gate_name --input input1 input2
 - input1 : give input1
 - input2 : give input2
 
-example
+*example*
 ```
 python3 run.py --gate Or --input 0 1
 ```
+`output : output for 'Or' logic gate is 1`
 
 ## Accuray and Loss of each implementation 
 
