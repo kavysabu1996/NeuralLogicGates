@@ -4,7 +4,7 @@ Purpose of this repository is to showcase implementations of logic gates using n
 
 In this repository you will find implementations of various neural networks such as AND, OR and more. These implementations demonstrate how neural networks can learn the underlying logical rules and produce accurate outputs. 
 
-## Load pretrained models
+## Try the Implementations Yourself!
 
 You can try the NeuralLogicGates(pretrained models) by using following code
 ```
