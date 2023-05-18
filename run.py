@@ -9,7 +9,7 @@ model_weights = {
                 }
 
 def predict_output(gate, inputs):
-    model = tf.keras.models.load_model(model_weights[gate.upper()])    
+    model = tf.keras.models.load_model(model_weights[gate.upper()], compile=False)    
     inputs = inputs[np.newaxis, ...]
     prediction = model.predict(inputs)
     return int(np.squeeze(prediction.round()))
