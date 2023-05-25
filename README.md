@@ -7,7 +7,8 @@ In this repository you will find implementations of various neural networks such
 ## Try the Implementations Yourself!
 
 ### Requirements
-- numpy, tensorflow
+- numpy
+- tensorflow
 
 You can try the NeuralLogicGates(pretrained models) by using following code
 ```
